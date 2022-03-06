@@ -8,7 +8,7 @@ void ledChaser(){
         // turn on LED
         for (int i = 0; i < 8; i++)        {
             PORTB = 0b00000001 << i;
-            _delay_ms(10);
+            _delay_ms(2);
         }
     } else {
         // turn off LED
